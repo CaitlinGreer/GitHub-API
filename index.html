@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  
+  <header>
+    <h1>Search GitHub For User</h1>
+  </header>
+
+  <body>
+    <section class="how-to">Find users and their repos by typing in a username below</section>
+
+    <section class="input-form">
+      <form class="search-form">
+        <input id="username-input" type="text" name="username-input" value="">
+        <input type="submit" name="search" value="Search!">
+      </form>
+    </section>
+    
+    <section class="results">
+      <div class="js-results results hidden">
+        <ul class="js-results-list">
+        </ul>
+      </div>
+    </section>
+    
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
